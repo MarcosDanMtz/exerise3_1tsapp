@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  loadedOpc = 'recipe';
+
+  onNavigateOpc(opc: string){
+    this.loadedOpc = opc;
+  }
 }
